@@ -23,7 +23,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel='icon' href='/favicon.ico'/>
+        {/* <link rel='icon' href='/favicon.ico'/> */}
+        <link rel="icon" href="/eagle.jpeg" />
       </head>
       <body className={roboto.className}>
         <NxtProvider>{children}</NxtProvider>
