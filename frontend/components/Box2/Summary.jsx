@@ -2,8 +2,8 @@ import React from "react";
 
 const Summary = () => {
   return (
-    <div id="about" className="text-gray-500 flex flex-col gap-5">
-        <p className="text-gray-200">About</p>
+    <div className="text-gray-500 flex flex-col gap-5">
+      <p className="text-gray-200">About</p>
       <p>
         Back in 2012, I decided to try my hand at creating custom Tumblr themes
         and tumbled head first into the rabbit hole of coding and web
@@ -15,9 +15,9 @@ const Summary = () => {
         My main focus these days is building products and leading projects for
         our clients at Upstatement. I most enjoy building software in the sweet
         spot where design and engineering meet — things that look good but are
-        also built well under the hood. In my free time, I've also released an
-        online video course that covers everything you need to know to build a
-        web app with the Spotify API.
+        also built well under the hood. In my free time, {"I've"} also released
+        an online video course that covers everything you need to know to build
+        a web app with the Spotify API.
       </p>
       <p>
         When I’m not at the computer, I’m usually rock climbing, reading,

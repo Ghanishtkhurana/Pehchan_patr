@@ -7,23 +7,29 @@ import { Button } from "@nextui-org/react";
 
 import Experience from "@/components/Box2/Experience";
 import Project from "@/components/Box2/Project";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[#0F172A] text-white flex h-screen">
-      <div className="w-[40%] px-20 flex justify-center flex-col items-start gap-14">
+    <div className="bg-[#0F172A] text-white flex base:flex-col small:flex-col medium:flex-col large:flex-row  large:h-screen medium:overflow-y-scroll">
+      <div className="large:w-[40%] medium:w-[60%] small:w-[80%] base:w-[100%] base:py-10 large:px-20 medium:px-10 small:px-5 base:px-4 flex justify-center flex-col items-start gap-14">
         <HeadingSec />
         <UiElements />
         <SocialLink />
       </div>
-      <div className="flex-1 flex flex-col items-center overflow-y-scroll scrollbar-hide pt-[90px] pb-[50px]">
-        <div className="w-[70%] flex flex-col gap-10">
+      {/* <div className="flex-1 flex flex-col items-center pt-[90px] pb-[50px]"> */}
+      <div className="flex-1 flex flex-col items-center overflow-y-scroll scrollbar-hide large:pt-[90px] base:pt-4 pb-[50px]">
+        <div className="large:w-[70%] medium:w-[80%] small:w-[90%] base:w-[90%] flex flex-col gap-10">
           {/* summary div  */}
-          <Summary />
-          <Experience />
+          <section id="about">
+            <Summary />
+          </section>
+          <section id="experience">
+            <Experience />
+          </section>
           {/* project  */}
-          <Project />
+          <section id="project">
+            <Project />
+          </section>
         </div>
       </div>
       {/* image log  */}
@@ -33,7 +39,7 @@ export default function Home() {
           width="100%"
           height="100%"
           frameBorder="0"
-          class="giphy-embed"
+          className="giphy-embed"
           allowFullScreen
         ></iframe>
       </div>

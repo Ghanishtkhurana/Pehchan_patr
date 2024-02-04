@@ -4,7 +4,7 @@ const HeadingSec = () => {
   return (
     <div className="flex flex-col gap-5">
       <div>
-        <p className="text-[40px] text-gray-300 font-semibold">
+        <p className="large:text-[40px] base:text-[35px] text-gray-300 font-semibold">
           Ghanisht Khurana
         </p>
         <p className="text-[18px] text-gray-300">
