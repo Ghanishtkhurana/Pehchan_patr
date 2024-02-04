@@ -10,8 +10,8 @@ import Project from "@/components/Box2/Project";
 
 export default function Home() {
   return (
-    <div className="bg-[#0F172A] text-white flex base:flex-col small:flex-col medium:flex-col large:flex-row  large:h-screen medium:overflow-y-scroll">
-      <div className="large:w-[40%] medium:w-[60%] small:w-[80%] base:w-[100%] base:py-10 large:px-20 medium:px-10 small:px-5 base:px-4 flex justify-center flex-col items-start gap-14">
+    <div className="bg-[#0F172A] text-white flex base:flex-col small:flex-col medium:flex-col large:flex-row  large:h-screen">
+      <div className="large:w-[45%] medium:w-[60%] small:w-[80%] base:w-[100%] base:py-10 large:px-20 medium:px-10 small:px-5 base:px-4 flex justify-center flex-col items-start gap-14">
         <HeadingSec />
         <UiElements />
         <SocialLink />
