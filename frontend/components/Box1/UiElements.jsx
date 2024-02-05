@@ -3,17 +3,17 @@ let uiArr = [
   {
     text: "About",
     link: "/",
-    id: "about",
+    id: "#about",
   },
   {
     text: "Experience",
     link: "/",
-    id: "experience",
+    id: "#experience",
   },
   {
     text: "Project",
     link: "/",
-    id: "project",
+    id: "#project",
   },
 ];
 
@@ -27,14 +27,12 @@ const UiElements = (id) => {
   return (
     <div className="flex flex-col gap-3 text-gray-400 hover:text-gray-200">
       {uiArr.map((el, i) => (
-        <div
-          key={i}
-          className="flex group gap-4 items-center"
-          onClick={() => scrollToAboutSection(el.id)}
-        >
-          <div className="bg-gray-400 w-7 group-hover:w-20 group-hover:bg-gray-200 transition-all duration-300 h-[2px]"></div>
-          <p className="cursor-pointer">{el.text}</p>
-        </div>
+        <a key={i} href={el?.id}>
+          <div className="flex group gap-4 items-center">
+            <div className="bg-gray-400 w-7 group-hover:w-20 group-hover:bg-gray-200 transition-all duration-300 h-[2px]"></div>
+            <p className="cursor-pointer">{el.text}</p>
+          </div>
+        </a>
       ))}
     </div>
   );
