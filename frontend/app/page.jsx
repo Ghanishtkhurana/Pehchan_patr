@@ -17,19 +17,19 @@ export default function Home() {
         <SocialLink />
       </div>
       {/* <div className="flex-1 flex flex-col items-center pt-[90px] pb-[50px]"> */}
-      <div className="flex-1 flex flex-col items-center overflow-y-scroll scrollbar-hide large:pt-[90px] base:pt-4 pb-[50px]">
+      <div className="flex-1 flex scroll-smooth flex-col items-center overflow-y-scroll scrollbar-hide large:pt-[90px] base:pt-4 pb-[50px]">
         <div className="large:w-[70%] medium:w-[80%] small:w-[90%] base:w-[90%] flex flex-col gap-10">
           {/* summary div  */}
-          <section id="about">
+          <div className="sectionsitem" id="about">
             <Summary />
-          </section>
-          <section id="experience">
+          </div>
+          <div className="sectionsitem" id="experience">
             <Experience />
-          </section>
+          </div>
           {/* project  */}
-          <section id="project">
+          <div className="sectionsitem" id="project">
             <Project />
-          </section>
+          </div>
         </div>
       </div>
       {/* image log  */}
