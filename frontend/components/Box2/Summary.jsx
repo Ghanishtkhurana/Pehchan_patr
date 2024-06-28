@@ -5,24 +5,26 @@ const Summary = () => {
     <div className="text-gray-500 flex flex-col gap-5">
       <p className="text-gray-200">About</p>
       <p>
-        Back in 2012, I decided to try my hand at creating custom Tumblr themes
-        and tumbled head first into the rabbit hole of coding and web
-        development. Fast-forward to today, and I’ve had the privilege of
-        building software for an advertising agency, a start-up, a student-led
-        design studio, and a huge corporation.
+        Hello! {"I'm"} a dedicated and passionate Full Stack Web Developer with over
+        a year of experience in building dynamic and responsive websites and
+        applications. Currently, I’m honing my skills at Veblika, where I
+        specialize in developing robust CRM systems and engaging websites using
+        the MERN (MongoDB, Express.js, React, Node.js) stack.
       </p>
       <p>
-        My main focus these days is building products and leading projects for
-        our clients at Upstatement. I most enjoy building software in the sweet
-        spot where design and engineering meet — things that look good but are
-        also built well under the hood. In my free time, {"I've"} also released
-        an online video course that covers everything you need to know to build
-        a web app with the Spotify API.
+        My journey in web development started from a genuine curiosity about how
+        things work on the internet, which soon evolved into a deep-seated
+        passion for creating efficient and user-friendly digital solutions. With
+        a strong foundation in both front-end and back-end technologies, I
+        strive to build seamless and interactive web experiences that meet the
+        unique needs of each client.
       </p>
       <p>
-        When I’m not at the computer, I’m usually rock climbing, reading,
-        hanging out with my wife and two cats, or running around Hyrule
-        searching for Korok seeds K o r o k s e e d s
+        At Veblika, {"I've"} had the opportunity to work on a variety of projects,
+        from crafting intuitive user interfaces to designing scalable
+        server-side applications. My role involves not just writing code, but
+        also collaborating closely with cross-functional teams to deliver
+        high-quality products that drive business success.
       </p>
     </div>
   );
