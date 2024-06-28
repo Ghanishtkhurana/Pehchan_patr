@@ -55,12 +55,12 @@ const Project = () => {
           key={i}
           className="flex large:flex-row small:flex-row base:flex-col w-full gap-4 bg-gray-800 bg-opacity-40 p-2 rounded-md group "
         >
-          <div className="relative overflow-hidden rounded-md h-[115px] w-[180px]">
+          <div className="relative overflow-hidden rounded-md h-[95px] w-[160px]">
             <Image src={el.image} fill alt="img" />
           </div>
           <div className="flex-1 justify-between py-2 w-full flex flex-col gap-3">
             <div className="flex gap-3 items-center">
-              <p className="text-[16px] group-hover:text-[#57d7d0] transition-all duration-300">
+              <p className="text-[14px] group-hover:text-[#57d7d0] transition-all duration-300">
                 {el.text}
               </p>
               <div className="group-hover:ml-1 group-hover:mb-1 group-hover:text-[#57d7d0] transition-all duration-300">

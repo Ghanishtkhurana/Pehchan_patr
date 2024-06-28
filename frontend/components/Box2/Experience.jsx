@@ -99,7 +99,7 @@ const Experience = () => {
             </p>
           </div>
           {/* skill btn  */}
-          <div className="flex gap-2 flex-wrap">
+          <div className="flex gap-3 flex-wrap">
             {skillArr.map((el, i) => (
               <Button
                 key={i}
