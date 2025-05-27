@@ -33,10 +33,6 @@ let skillArr = [
     icon: SiMongoose,
   },
   {
-    text: "Aws",
-    icon: FaAws,
-  },
-  {
     text: "Next JS",
     icon: TbBrandNextjs,
   },
@@ -70,7 +66,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="text-gray-400 flex justify-start pt-2">
-              <p className="text-[13px]">2024 - PRESENT</p>
+              <p className="text-[13px]">2023 - PRESENT</p>
             </div>
           </div>
           <div>

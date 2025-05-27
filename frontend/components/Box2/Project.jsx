@@ -9,15 +9,7 @@ import Link from "next/link";
 // import {motion} from "framer-motion"
 
 let project = [
-  {
-    text: "TIC TAC TOE",
-    // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
-    image: "/tic.png",
-    techStack: ["Next JS"],
-    liveLink: "https://tic-tac-toe-plum-sigma-26.vercel.app/",
-    git: "https://github.com/Ghanishtkhurana/tic-tac-toe",
-  },
-  {
+   {
     text: "Chat application",
     // dec: "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
     image: "/chatter.gif",
@@ -32,18 +24,30 @@ let project = [
     liveLink: "https://hike-pearl.vercel.app/",
     git: "https://github.com/Ghanishtkhurana/hike",
   },
-  // {
-  //   text: "Project 3",
-  //   dec: "description of project 3Minimal dark blue theme for VS Code, Sublime Text, Atom,i Term, and more.",
-  //   image: "/three.png",
-  //   techStack: ["Next JS", "Mongoose", "Mongo Db"],
-  // },
-  // {
-  //   text: "Project 4",
-  //   dec: "description of project 3Minimal dark blue theme for VS Code, Sublime Text, Atom,i Term, and more.",
-  //   image: "/four.png",
-  //   techStack: ["Next JS", "Mongoose", "Mongo Db"],
-  // },
+  {
+    text: "TIC TAC TOE",
+    // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
+    image: "/tic.png",
+    techStack: ["Next JS"],
+    liveLink: "https://tic-tac-toe-plum-sigma-26.vercel.app/",
+    git: "https://github.com/Ghanishtkhurana/tic-tac-toe",
+  },
+  {
+    text: "Parallax Effect",
+    // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
+    image: "/image1.png",
+    techStack: ["Next JS"],
+    liveLink: "https://parallax-effect-lovat.vercel.app/",
+    git: "https://github.com/Ghanishtkhurana/parallax-effect",
+  },
+  {
+    text: "Page Transition",  
+    // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
+    image: "/image.png",
+    techStack: ["Next JS"],
+    liveLink: "https://nixsh.vercel.app/",
+    git: "https://github.com/Ghanishtkhurana/page-animation",
+  },
 ];
 
 const Project = () => {
@@ -83,7 +87,7 @@ const Project = () => {
                   key={l}
                   radius="full"
                   size="sm"
-                  className="bg-[#193753] text-[11px] group-hover:text-[#57d7d0] transition-all duration-300 text-[#57d7d0] font-semibold"
+                  className="bg-[#193753] h-6 text-[9px] group-hover:text-[#57d7d0] transition-all duration-300 text-[#57d7d0] font-semibold"
                   // endContent={<el.icon className={`text-[#57d7d0]`} />
                 >
                   {otp}
