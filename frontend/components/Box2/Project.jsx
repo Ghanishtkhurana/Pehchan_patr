@@ -9,7 +9,7 @@ import Link from "next/link";
 // import {motion} from "framer-motion"
 
 let project = [
-   {
+  {
     text: "Chat application",
     // dec: "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
     image: "/chatter.gif",
@@ -23,6 +23,14 @@ let project = [
     ],
     liveLink: "https://hike-pearl.vercel.app/",
     git: "https://github.com/Ghanishtkhurana/hike",
+  },
+  {
+    text: "Real state",
+    // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
+    image: "/state.jpeg",
+    techStack: ["Next JS"],
+    liveLink: "https://address-co.vercel.app/",
+    // git: "https://github.com/Ghanishtkhurana/weather-app",
   },
   {
     text: "TIC TAC TOE",
@@ -41,7 +49,7 @@ let project = [
     git: "https://github.com/Ghanishtkhurana/parallax-effect",
   },
   {
-    text: "Page Transition",  
+    text: "Page Transition",
     // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
     image: "/image.png",
     techStack: ["Next JS"],
