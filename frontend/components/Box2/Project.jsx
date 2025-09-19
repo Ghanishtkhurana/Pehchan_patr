@@ -22,7 +22,7 @@ let project = [
       "Node JS",
     ],
     liveLink: "https://hike-pearl.vercel.app/",
-    git: "https://github.com/Ghanishtkhurana/hike",
+    // git: "https://github.com/Ghanishtkhurana/hike",
   },
   {
     text: "Real state",
@@ -33,12 +33,20 @@ let project = [
     // git: "https://github.com/Ghanishtkhurana/weather-app",
   },
   {
+    text: "School Showcase",
+    // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
+    image: "/imagecopy.png",
+    techStack: ["Next JS"],
+    liveLink: "https://grieving-peach-ygossnzqbs.edgeone.app/",
+    // git: "https://github.com/Ghanishtkhurana/weather-app",
+  },
+  {
     text: "TIC TAC TOE",
     // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
     image: "/tic.png",
     techStack: ["Next JS"],
     liveLink: "https://tic-tac-toe-plum-sigma-26.vercel.app/",
-    git: "https://github.com/Ghanishtkhurana/tic-tac-toe",
+    // git: "https://github.com/Ghanishtkhurana/tic-tac-toe",
   },
   {
     text: "Parallax Effect",
@@ -46,7 +54,7 @@ let project = [
     image: "/image1.png",
     techStack: ["Next JS"],
     liveLink: "https://parallax-effect-lovat.vercel.app/",
-    git: "https://github.com/Ghanishtkhurana/parallax-effect",
+    // git: "https://github.com/Ghanishtkhurana/parallax-effect",
   },
   {
     text: "Page Transition",
@@ -54,7 +62,7 @@ let project = [
     image: "/image.png",
     techStack: ["Next JS"],
     liveLink: "https://nixsh.vercel.app/",
-    git: "https://github.com/Ghanishtkhurana/page-animation",
+    // git: "https://github.com/Ghanishtkhurana/page-animation",
   },
 ];
 
@@ -80,11 +88,13 @@ const Project = () => {
                   <CgArrowTopRightO className="h-5 w-5 cursor-pointer" />
                 </a>
               </div>
-              <div className="group-hover:ml-1 group-hover:mb-1 group-hover:text-[#57d7d0] transition-all duration-300">
-                <a href={el.git} target="_black">
-                  <VscGithub className="h-5 w-5 cursor-pointer" />
-                </a>
-              </div>
+              {el.git && (
+                <div className="group-hover:ml-1 group-hover:mb-1 group-hover:text-[#57d7d0] transition-all duration-300">
+                  <a href={el.git} target="_black">
+                    <VscGithub className="h-5 w-5 cursor-pointer" />
+                  </a>
+                </div>
+              )}
             </div>
             {/* <div className="text-gray-400 pr-4">
               <p className="text-[12px]">{el.dec}</p>
