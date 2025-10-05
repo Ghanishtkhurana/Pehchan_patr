@@ -10,6 +10,26 @@ import Link from "next/link";
 
 let project = [
   {
+    text: "Productivity hub (Telegram bot + Form builder + Eraser.io)",
+    // dec: "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+    image: "/productivehub.png",
+    techStack: [
+      "Next JS",
+      "Weebhooks",
+      "Next-Auth",
+      "Socket.io",
+      "Telegram API",
+      "Eraser io",
+      "Form-Builder",
+      "Mongoose",
+      "Mongo Db",
+      "Express JS",
+      "Node JS",
+    ],
+    liveLink: "https://bot-manager-ten.vercel.app/login",
+    // git: "https://github.com/Ghanishtkhurana/productivity-hub",
+  },
+  {
     text: "Chat application",
     // dec: "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
     image: "/chatter.gif",
