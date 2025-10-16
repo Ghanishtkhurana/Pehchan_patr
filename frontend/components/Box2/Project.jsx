@@ -56,9 +56,15 @@ let project = [
     text: "School Showcase",
     // dec: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more",
     image: "/imagecopy.png",
-    techStack: ["Next JS"],
-    liveLink: "https://grieving-peach-ygossnzqbs.edgeone.app/",
+    techStack: ["Next JS", "Shadcn UI"],
+    liveLink: "https://revolutionary-amber-fkohf4upxe.edgeone.app/",
     // git: "https://github.com/Ghanishtkhurana/weather-app",
+  },
+  {
+    text: "School Showcase 2",
+    image: "/school2.png",
+    techStack: ["Next JS", "Shadcn UI"],
+    liveLink: "https://school-website-blush.vercel.app/",
   },
   {
     text: "TIC TAC TOE",
