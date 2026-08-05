@@ -5,7 +5,7 @@ const HeadingSec = () => {
     <div className="flex flex-col gap-5">
       <div>
         <p className="large:text-[40px] base:text-[35px] text-gray-300 font-semibold">
-          Ghanisht Khurana
+          Ghanisht Khurana great
         </p>
         <p className="text-[18px] text-gray-300">
           Full-Stack Developer At Veblika
